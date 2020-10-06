@@ -1,0 +1,78 @@
+*, *::before, * ::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(stars.jpg) no-repeat center center fixed;
+    background-color: darkmagenta;
+    margin: 50px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans';
+    color: white;
+}
+
+header{
+    margin: 30px 0;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+.twinkle{
+    min-height: 100px;
+    color: white;
+    margin: 30px;
+}
+
+.keyboard{
+    display: flex;
+    justify-content: center;
+}
+
+.music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    height: calc(var(--width)*4);
+    width: var(--width);
+}
+
+button {
+    margin: 20px
+}
+
+.key :hover{
+    background-color: #333333;
+}
+
+.white{
+    background-color: white;
+    --width: 60px;
+    z-index: 1;
+    border: 1px solid #333333;
+}
+
+.white.active {
+    background-color: whitesmoke;
+}
+.black.active {
+    background-color: #333333;
+}
+
+.black{
+    border-radius: 0 0 10px 10px;
+    --width: 30px;
+    background-color: black;
+    z-index: 2;
+    color: white;
+    margin-left: calc(var(--width)/ -2);
+    margin-right: calc(var(--width)/-2);
+}
+

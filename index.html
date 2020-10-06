@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keyboard</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header>Pia Pia Piano</header>
+
+    <div class='music'>
+
+        <select id="songs">
+            <option value="twinkle" selected>Twinkle Twinkle</option>
+            <option value="happybdy">Happy Birthday</option>
+            <option value="yankeedoodle">Yankee Doodle</option>
+        </select>
+
+        <div id='songLyrics'></div>
+
+        <button id="play">Play</button>
+        <button id="stop">Stop</button>
+
+        <div id="result"></div>
+    </div>
+
+    <div class="keyboard">
+        <div class="white key" data-note="c">C</div>
+        <div class="black key" data-note="c_sharp">C#</div>
+        <div class="white key" data-note="d">D</div>
+        <div class="black key" data-note="d_sharp">D#</div>
+        <div class="white key" data-note="e">E</div>
+        <div class="white key" data-note="f">F</div>
+        <div class="black key" data-note="f_sharp">F#</div>
+        <div class="white key" data-note="g">G</div>
+        <div class="black key" data-note="g_sharp">G#</div>
+        <div class="white key" data-note="a">A</div>
+        <div class="black key" data-note="a_sharp">A#</div>
+        <div class="white key" data-note="b">B</div>
+        <div class="white key" data-note="c2">C</div>
+        <div class="black key" data-note="c2_sharp">C#</div>
+        <div class="white key" data-note="d2">D</div>
+        <div class="black key" data-note="d2_sharp">D#</div>
+        <div class="white key" data-note="e2">E</div>
+        <div class="white key" data-note="f2">F</div>
+        <div class="black key" data-note="f2_sharp">F#</div>
+        <div class="white key" data-note="g2">G</div>
+        <div class="black key" data-note="g2_sharp">G#</div>
+        <div class="white key" data-note="a2">A</div>
+        <div class="black key" data-note="a2_sharp">A#</div>
+        <div class="white key" data-note="b2">B</div>
+    </div>
+
+    <!-- you can't have a data-note and id for audio files -->
+
+    <audio id="c" src="notes/01-C4.ogg"></audio>
+    <audio id="c_sharp" src="notes/02-C4#.ogg"></audio>
+    <audio id="d" src="notes/03-D4.ogg"></audio>
+    <audio id="d_sharp" src="notes/04-D4#.ogg"></audio>
+    <audio id="e" src="notes/05-E4.ogg"></audio>
+    <audio id="f" src="notes/06-F4.ogg"></audio>
+    <audio id="f_sharp" src="notes/07-F4#.ogg"></audio>
+    <audio id="g" src="notes/08-G4.ogg"></audio>
+    <audio id="g_sharp" src="notes/09-G4#.ogg"></audio>
+    <audio id="a" src="notes/10-A4.ogg"></audio>
+    <audio id="a_sharp" src="notes/11-A4#.ogg"></audio>
+    <audio id="b" src="notes/12-B4.ogg"></audio>
+    <audio id="c2" src="notes/13-C5.ogg"></audio>
+    <audio id="c2_sharp" src="notes/14-C5#.ogg"></audio>
+    <audio id="d2" src="notes/15-D5.ogg"></audio>
+    <audio id="d2_sharp" src="notes/16-D5#.ogg"></audio>
+    <audio id="e2" src="notes/17-E5.ogg"></audio>
+    <audio id="f2" src="notes/18-F5.ogg"></audio>
+    <audio id="f2_sharp" src="notes/19-F5#.ogg"></audio>
+    <audio id="g2" src="notes/20-G5.ogg"></audio>
+    <audio id="g2_sharp" src="notes/21-G5#.ogg"></audio>
+    <audio id="a2" src="notes/22-A5.ogg"></audio>
+    <audio id="a2_sharp" src="notes/23-A5#.ogg"></audio>
+    <audio id="b2" src="notes/24-B5.ogg"></audio>
+
+</body>
+
+</html>
