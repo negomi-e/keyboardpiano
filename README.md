@@ -5,4 +5,6 @@ Are you bored of replying to emails? Want a break from cracking the code? Why no
 
 This is a basic JS keyboard for you to practise, you can even test how accurate you are and get feedback!
 
+To play, use the Live Server on VSCode
+
 ![keyboard cover](https://github.com/negomi-e/keyboardpiano/blob/master/Keyboard_cover.png?raw=true)
